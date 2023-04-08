@@ -9,16 +9,16 @@
 		<h2>Registrate:</h2>
 		<span class="input-conainter">
 			<div class="mb-3">
-				<label for="exampleFormControlInput1" class="form-label">Email address</label>
+				<label for="exampleFormControlInput1" class="form-label">Correo electronico:</label>
 				<input
 					type="email"
 					class="form-control"
 					id="exampleFormControlInput1"
-					placeholder="name@example.com"
+					placeholder="nombre@ejemplo.com"
 				/>
 			</div>
 			<div class="mb-3">
-				<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+				<label for="exampleFormControlTextarea1" class="form-label">Primeras impresiones:</label>
 				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" />
 			</div>
 		</span>
