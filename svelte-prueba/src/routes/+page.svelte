@@ -1,6 +1,6 @@
 <main class="contenedor">
 	<h1>Este es el inicio de la pagina aqui encontraras la introduccion:</h1>
-	<p>Hola, bienvenido a mi pagina, aqui podras... <br /> tendras la capacidad de...</p>
+	<p>Hola, bienvenido a "nombre de la pagina" <br /> El lugar donde podras potenciar tus habilidades personales y compartirlas con otros</p>
 
 	<div class="contenedor-input">
 		<h2>Inicia aqui!</h2>
