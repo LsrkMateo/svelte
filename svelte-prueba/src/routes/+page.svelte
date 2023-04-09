@@ -33,26 +33,16 @@
 		</span>
 	</div>
 	<div class="contenedor-imagen-parrafo">
-		<p class="parrafo-con-imagen">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi consequatur cupiditate
-			rem inventore maiores! Ipsum repudiandae optio nam libero, quidem veniam atque voluptates
-			mollitia ducimus illum quibusdam, magni rerum.Lorem ipsum dolor sit amet consectetur
-			adipisicing elit. Fugit animi consequatur cupiditate rem inventore maiores! Ipsum repudiandae
-			optio nam libero, quidem veniam atque voluptates mollitia ducimus illum quibusdam, magni
-			rerum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi consequatur
-			cupiditate rem inventore maiores! Ipsum repudiandae optio nam libero, quidem veniam atque
-			voluptates mollitia ducimus illum quibusdam, magni rerum.Lorem ipsum dolor sit amet
-			consectetur adipisicing elit. Fugit animi consequatur cupiditate rem inventore maiores! Ipsum
-			repudiandae optio nam libero, quidem veniam atque voluptates mollitia ducimus illum quibusdam,
-			magni rerum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi consequatur
-			cupiditate rem inventore maiores! Ipsum repudiandae optio nam libero, quidem veniam atque
-			voluptates mollitia ducimus illum quibusdam, magni rerum.Lorem ipsum dolor sit amet
-			consectetur adipisicing elit. Fugit animi consequatur cupiditate rem inventore maiores! Ipsum
-			repudiandae optio nam libero, quidem veniam atque voluptates mollitia ducimus illum quibusdam,
-			magni rerum.
-		</p>
-		<!--?xml version="1.0" standalone="no"?-->
-		
+		<div class="parrafo-con-imagen">
+			<h1 class="h1-pregunta1">¿Estás interesado en realizar un proyecto educativo?</h1>
+			<p class="parrafo-explicacion2">
+				Tenemos herramientas y materiales para ayudarte a desarrollar tus ideas y llevarlas a la
+				práctica. ¿Quieres emprender un proyecto personal? También tenemos recursos y consejos para
+				que puedas llevar adelante tu proyecto de manera exitosa. Y si lo que buscas es generar
+				ingresos con tus proyectos, te ofrecemos ideas y estrategias para hacer que tu proyecto sea
+				lucrativo.
+			</p>
+		</div>
 	</div>
 </main>
 
@@ -131,12 +121,24 @@
 		margin-top: 2rem;
 		align-items: center;
 		padding: 4rem;
-		background-color: rgb(158, 188, 213);
+		background-image: url('https://www.xtrafondos.com/descargar.php?id=3128&resolucion=2880x1800');
 		border-top: 2px dashed black;
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 	.parrafo-con-imagen {
 		width: 60%;
-		margin-right: 30px;
+		margin-top: 20px;
+		margin-left: 4rem;
+		background: rgba(255, 255, 255, 0.5);
+		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		padding: 30px;
 	}
 	textarea {
 		background: rgba(255, 255, 255, 0.65);
@@ -145,5 +147,9 @@
 		-webkit-backdrop-filter: blur(16px);
 		border-radius: 10px;
 		border: 1px solid rgba(255, 255, 255, 0.18);
+	}
+	.parrafo-explicacion2 {
+		font-size: 1.5rem;
+		text-align: center;
 	}
 </style>
