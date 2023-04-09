@@ -4,7 +4,7 @@
 </script>
 
 <main class="navegacion">
-	<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary barra">
 		<div class="container-fluid">
 			<a class="navbar-brand nombre" href="/">Nombre de la app</a>
 			<button
@@ -49,4 +49,5 @@
 		border-right: 1px solid black;
 		padding: 0 20px 0 0;
 	}
+	
 </style>

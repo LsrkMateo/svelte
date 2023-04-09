@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("https://i.pinimg.com/originals/93/42/d6/9342d68be748d92779856f56789a7bab.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    backdrop-filter: brightness(120%);
+
+}
 a{
     text-decoration: none;
 }
