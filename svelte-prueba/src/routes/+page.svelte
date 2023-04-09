@@ -52,32 +52,7 @@
 			magni rerum.
 		</p>
 		<!--?xml version="1.0" standalone="no"?-->
-		<svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
-			<defs>
-				<mask id="svg-mask">
-					<path
-						fill="url(#sw-gradient)"
-						d="M23,-28.7C30.9,-26,39,-20.6,40.4,-13.7C41.8,-6.8,36.6,1.7,31.9,8.6C27.2,15.5,23.1,20.8,17.9,25.8C12.7,30.8,6.3,35.4,0.2,35.1C-5.9,34.8,-11.7,29.5,-17,24.5C-22.3,19.6,-27,14.9,-29.7,9.1C-32.4,3.2,-33.1,-3.9,-32,-11.4C-31,-19,-28.2,-27,-22.6,-30.5C-17,-33.9,-8.5,-32.7,-0.5,-32C7.6,-31.4,15.2,-31.4,23,-28.7Z"
-						width="100%"
-						height="100%"
-						transform="translate(50 50)"
-						stroke-width="0"
-						style="transition: all 0.3s ease 0s;"
-					/>
-				</mask>
-				<linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
-					<stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%" />
-					<stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%" />
-				</linearGradient>
-			</defs>
-			<img
-				src="https://p4.wallpaperbetter.com/wallpaper/439/553/103/minimalist-minimal-art-fox-night-wallpaper-preview.jpg"
-				alt="Fondo minimalista"
-				width="150"
-				height="150"
-				mask="url(#svg-mask)"
-			/>
-		</svg>
+		
 	</div>
 </main>
 
@@ -163,7 +138,6 @@
 		width: 60%;
 		margin-right: 30px;
 	}
-	input,
 	textarea {
 		background: rgba(255, 255, 255, 0.65);
 		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
